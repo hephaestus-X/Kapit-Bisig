@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapit-Bisig</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Poppins:wght@300;400;600;700&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="freelancers.html">FREELANCERS</a></li>
+                    <li><a href="login.html">LOG IN/REGISTER</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>       
+    <div class="text-box">
+        <h1>Kapit-Bisig</h1>
+        <p>Emergency? We Got You!</p>
+        <a href="about.html" class="hero-btn">www.kapit_bisig.com</a>
+    </div>  
+    </section>
+    
+
+<!--------- freelancer ROW1 --------->    
+<section class= "Freelancers">
+    <h1>Freelancers Available</h1>
+    <p>What Help Do You Need?</p>
+    
+    <div class="row">
+        <div class="Freelancers-col">
+            <img src="images/developer.png">
+            <div class="layer">
+                <h3><a href="dev.html">DEVELOPER</a></h3>   
+            </div>
+        </div>
+        <div class="Freelancers-col">
+            <img src="images/designer.png">
+            <div class="layer">
+                <h3><a href="des.html">DESIGNER</a></h3>
+            </div>
+        </div>
+        <div class="Freelancers-col">
+            <img src="images/writer.png">
+            <div class="layer">
+                <h3><a href="wri.html">WRITER</a></h3>  
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!--------- freelancer ROW2 --------->    
+<section class= "Freelancers">
+    
+    <div class="row">
+        <div class="Freelancers-col">
+            <img src="images/photographer.png">
+            <div class="layer">
+                <h3><a href="pho.html">PHOTOGRAPHER</a></h3> 
+            </div>
+        </div>
+        <div class="Freelancers-col">
+            <img src="images/videographer.png">
+            <div class="layer">
+                <h3><a href="vid.html">VIDEOGRAPHER</a></h3>  
+            </div>
+        </div>
+        <div class="Freelancers-col">
+            <img src="images/translator.png">
+            <div class="layer">
+                <h3><a href="tra.html">TRANSLATOR</a></h3>  
+            </div>
+        </div>
+    </div>
+</section>    
+    
+<!--------- freelancer ROW3 --------->    
+<section class= "Freelancers">
+    
+    <div class="row">
+        <div class="Freelancers-col">
+            <img src="images/mechanic.png">
+            <div class="layer">
+                <h3><a href="mec.html">MECHANIC</a></h3>  
+            </div>
+        </div>
+        <div class="Freelancers-col">
+            <img src="images/plumber.png">
+            <div class="layer">
+                <h3><a href="plu.html">PLUMBER</a></h3>  
+            </div>
+        </div>
+        <div class="Freelancers-col">
+            <img src="images/electrician.png">
+            <div class="layer">
+                <h3><a href="ele.html">ELECTRICIAN</a></h3>  
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!--------- ending --------->
+<section class="end">
+    <h1>Ask For Help Anywhere You Are!</h1>
+</section>
+    
+<!--------- footer --------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>HEPHAESTUS</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <div class="foot">
+    <img src="images/logo.png">
+    </div>
+    
+</section>
+        
+    
+<!---------JavaScript for Toggle Menu-------->   
+    
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+    
+    
+    
+</body>
+</html>
