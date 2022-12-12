@@ -505,7 +505,12 @@ h3{
     padding: 30px 2px;
 }
 
-.pho-col img{
+.phot-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.phot-col img{
     width: 100%;
     display: block;
 }
@@ -553,7 +558,12 @@ h3{
     padding: 30px 2px;
 }
 
-.vid-col img{
+.vide-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.vide-col img{
     width: 100%;
     display: block;
 }
@@ -601,7 +611,12 @@ h3{
     padding: 30px 2px;
 }
 
-.tra-col img{
+.tran-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.tran-col img{
     width: 100%;
     display: block;
 }
@@ -649,7 +664,12 @@ h3{
     padding: 30px 2px;
 }
 
-.mec-col img{
+.mech-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.mech-col img{
     width: 100%;
     display: block;
 }
@@ -698,7 +718,12 @@ h3{
     padding: 30px 2px;
 }
 
-.plu-col img{
+.plum-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.plum-col img{
     width: 100%;
     display: block;
 }
@@ -746,7 +771,12 @@ h3{
     padding: 30px 2px;
 }
 
-.ele-col img{
+.elec-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.elec-col img{
     width: 100%;
     display: block;
 }
@@ -970,6 +1000,263 @@ h3{
     bottom: 49%;
     opacity:1;
 }
+
+/*------------- ele-workers ----------*/
+
+.ele-workers{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.ele-workcol{
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.ele-profile{
+    text-align: left;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.ele-profile h4 {
+    text-align: center;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.ele-col img{
+    width: 80%;
+    display: block;
+}
+
+.elework-layer{
+    background: transparent;
+    border-radius: 10px;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.elework-layer:hover{
+     background: rgba(4,9,30,0.7);
+}
+.elework-layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}  
+
+.elework-layer:hover h3{
+    bottom: 49%;
+    opacity:1;
+}
+
+/*------------- mec-workers ----------*/
+
+.mec-workers{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.mec-workcol{
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.mec-profile{
+    text-align: left;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.mec-profile h4 {
+    text-align: center;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.mec-col img{
+    width: 80%;
+    display: block;
+}
+
+.mecwork-layer{
+    background: transparent;
+    border-radius: 10px;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.mecwork-layer:hover{
+     background: rgba(4,9,30,0.7);
+}
+.mecwork-layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}  
+
+.mecwork-layer:hover h3{
+    bottom: 49%;
+    opacity:1;
+}
+
+/*------------- pho-workers ----------*/
+
+.pho-workers{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.pho-workcol{
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.pho-profile{
+    text-align: left;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.pho-profile h4 {
+    text-align: center;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.pho-col img{
+    width: 80%;
+    display: block;
+}
+
+.phowork-layer{
+    background: transparent;
+    border-radius: 10px;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.phowork-layer:hover{
+     background: rgba(4,9,30,0.7);
+}
+.phowork-layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}  
+
+.phowork-layer:hover h3{
+    bottom: 49%;
+    opacity:1;
+}
+
+/*------------- plu-workers ----------*/
+
+.plu-workers{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.plu-workcol{
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.plu-profile{
+    text-align: left;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.plu-profile h4 {
+    text-align: center;
+    flex-basis: 48%;
+    padding: 3px 2px;
+}
+
+.plu-col img{
+    width: 80%;
+    display: block;
+}
+
+.pluwork-layer{
+    background: transparent;
+    border-radius: 10px;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.pluwork-layer:hover{
+     background: rgba(4,9,30,0.7);
+}
+.pluwork-layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}  
+
+.pluwork-layer:hover h3{
+    bottom: 49%;
+    opacity:1;
+}
+
 
 /*------------ log in --------------*/
 
@@ -1234,3 +1521,12 @@ span
 	font-size: 15;
 }
 
+/*----------- register ------------*/
+.registerheader{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/logo.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
