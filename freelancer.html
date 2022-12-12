@@ -32,13 +32,13 @@
                     <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
                     <button type='button'onclick='register()'class='toggle-btn'>Register</button>
                 </div>
-                <form id='login' class='input-group-login'>
+                <form action="form-handler.php" method="post" id='login' class='input-group-login'>
                     <input type='text'class='input-field'placeholder='Email Id' required >
 		    <input type='password'class='input-field'placeholder='Enter Password' required>
 		    <input type='checkbox'class='check-box'><span>Remember Password</span>
 		    <button type='submit'class='submit-btn'>Log in</button>
 		 </form>
-		 <form id='register' class='input-group-register'>
+		 <form action="form-handler.php" method="post" id='register' class='input-group-register'>
 		     <input type='text'class='input-field'placeholder='First Name' required>
 		     <input type='text'class='input-field'placeholder='Last Name ' required>
 		     <input type='email'class='input-field'placeholder='Email Id' required>
